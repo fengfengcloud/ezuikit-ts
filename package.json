@@ -2,7 +2,7 @@
   "name": "ezuikit-ts",
   "version": "0.1.1",
   "description": "The typescript version",
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
     "lib/**/*"
   ],
