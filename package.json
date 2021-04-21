@@ -1,7 +1,7 @@
 {
   "name": "ezuikit-ts",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "The typescript version",
   "main": "index.js",
   "files": [
     "lib/**/*"
@@ -22,7 +22,7 @@
     "url": "git+https://github.com/zy0228/ezuikit-ts.git"
   },
   "keywords": ["ezuikit", "ezuikitjs", "ezuikit-js", "ezuikit-ts"],
-  "author": "",
+  "author": "snoop zhang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zy0228/ezuikit-ts/issues"
