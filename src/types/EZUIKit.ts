@@ -38,6 +38,9 @@ export interface Options {
   fullScreenStatus?: number;
   bSupporDoubleClickFull?: boolean;
   videoLoading?: boolean;
+  iframe?: HTMLIFrameElement;
+  domElement?: HTMLElement;
+  onHistroyCallBack?: (arg?: any) => any
 }
 
 export type Template = 'simple' | 'standard' | 'security' | 'voice'

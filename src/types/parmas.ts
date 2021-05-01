@@ -9,8 +9,8 @@ export interface Params extends Options {
   handleTalkSuccess?: any;
   controls?: any;
   websocketParams?: any;
-  height?: Number | string;
-  width?: Number | string;
+  height?: number | string;
+  width?: number | string;
   header?: Header[];
   footer?: Footer[];
   handleTalkError(): any;
@@ -24,8 +24,9 @@ export interface Params extends Options {
   getOSDTimeCallBack(): any;
   handleSuccess(): any;
   handleError(err?: any): any;
+  onHistroyCallBack(): any;
 }
 
-type Header = 'capturePicture' | 'save' | 'zoom'
+type Header = 'capturePicture' | 'save' | 'zoom' | 'fullScreen' | 'history'
 
 type Footer = 'talk' | 'broadcast' | 'hd' | 'fullScreen'
